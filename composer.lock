@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e957ea846a8b0ae6b8ae0d0fc9455709",
-    "content-hash": "a6d9f050ce1107fd0cb39e8dde3c1a57",
+    "hash": "4259078a7b0c9215135c008d6e0f37f4",
+    "content-hash": "a5b0527740e5354ebbabc549df3188b7",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -615,6 +615,33 @@
                 "orm"
             ],
             "time": "2015-08-31 13:19:01"
+        },
+        {
+            "name": "mstruebing/tweetly",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mstruebing/MStruebing.Tweetly.git",
+                "reference": "0f76d1ea9ad82a00986453776d26acdb27f340ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mstruebing/MStruebing.Tweetly/zipball/0f76d1ea9ad82a00986453776d26acdb27f340ed",
+                "reference": "0f76d1ea9ad82a00986453776d26acdb27f340ed",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "MStruebing\\Tweetly": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Add description here",
+            "time": "2016-01-06 08:35:56"
         },
         {
             "name": "neos/composer-plugin",
@@ -2257,6 +2284,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "mstruebing/tweetly": 20,
         "typo3/buildessentials": 20,
         "flowpack/behat": 20
     },
