@@ -17,7 +17,8 @@
     },
     "require": {
         "typo3/flow": "~3.1.0",
-        "typo3/welcome": "~3.1.0"
+        "typo3/welcome": "~3.1.0",
+        "mstruebing/tweetly": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "~3.1.0",
