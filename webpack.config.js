@@ -1,0 +1,1 @@
+Packages/Application/MStruebing.Tweetly/webpack.config.js

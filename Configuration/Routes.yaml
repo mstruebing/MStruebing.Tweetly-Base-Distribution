@@ -8,10 +8,8 @@
 #                                                                        #
 
 ##
-# Subroutes from the Welcome package.
+# Tweetly Subroutes
 #
-# If the package "Welcome" is installed, its fallback route will point to an
-# informative welcome screen.
 
 -
   name: 'MStruebing.Tweetly'
